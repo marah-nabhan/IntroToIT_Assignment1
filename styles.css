@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: monospace;
   color: black;
-  background-color: rgba(0, 0, 0, 0.863);
+  background-color: black;
 }
 
 nav {
@@ -17,8 +17,7 @@ nav {
   justify-content: center;
   padding: 0.5rem;
   gap: 1rem;
-  border-bottom: solid 1px #aaa;
-  background-color: black;
+  background-color: greenyellow;
 }
 
 nav a {
@@ -26,17 +25,18 @@ nav a {
   min-width: 9rem;
   padding: 0.5rem;
   border-radius: 0.2rem;
-  border: dashed 2px #aaa;
+  border: dashed 2px black;
   text-align: center;
   text-decoration: none;
-  color: white;
+  color: black;
+  font-weight: bold;
 }
 
 nav a[aria-current='page'] {
   font-weight: bold;
-  color: #000;
-  background-color: white;
-  border: solid 3px greenyellow;
+  color: white;
+  background-color: black;
+  border: dashed 2px white;
 }
 
 main {
@@ -44,7 +44,7 @@ main {
 }
 
 h1 {
-  color: rgb(114, 138, 79);
+  color: rgb(156, 212, 71);
   font-size: 2rem;
   text-align: center;
 }
