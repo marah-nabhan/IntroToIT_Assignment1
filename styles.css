@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: monospace;
   color: black;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.863);
 }
 
 nav {
@@ -18,7 +18,7 @@ nav {
   padding: 0.5rem;
   gap: 0.5rem;
   border-bottom: solid 1px #aaa;
-  background-color: #eee;
+  background-color: black;
 }
 
 nav a {
@@ -26,15 +26,17 @@ nav a {
   min-width: 9rem;
   padding: 0.5rem;
   border-radius: 0.2rem;
-  border: solid 1px #aaa;
+  border: dashed 2px #aaa;
   text-align: center;
   text-decoration: none;
-  color: #555;
+  color: white;
 }
 
 nav a[aria-current='page'] {
+  font-weight: bold;
   color: #000;
-  background-color: #d4d4d4;
+  background-color: white;
+  border: solid 3px greenyellow;
 }
 
 main {
@@ -42,20 +44,24 @@ main {
 }
 
 h1 {
+  color: rgb(114, 138, 79);
   font-size: 2rem;
   text-align: center;
 }
 
 h2 {
+  color: rgb(156, 212, 71);
   text-align: center;
   font-size: 1.5rem;
 }
 
 h3 {
+  color: greenyellow;
   font-size: 1.1rem;
 }
 
 p {
+  color: white;
   font-size: 0.8rem;
 }
 
